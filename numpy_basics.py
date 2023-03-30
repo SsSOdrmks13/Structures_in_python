@@ -80,9 +80,9 @@ import numpy as np
 
 
 # Repeat an array
-# a = np.array([[1, 2, 3]])
-# r1 = np.repeat(a, 3, axis=0)
-# print(r1)
+a = np.array([[1, 2, 3]])
+r1 = np.repeat(a, 3)
+print(r1)
 
 
 
