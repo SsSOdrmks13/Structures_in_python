@@ -53,5 +53,8 @@ mylist = list(mytuple)
 print(sys.getsizeof(mylist), bytes)
 print(sys.getsizeof(mytuple), bytes)
 
+mylist3 = mylist.copy()
+print(mylist3)
+
 
 
