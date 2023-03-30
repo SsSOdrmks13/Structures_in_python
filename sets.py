@@ -42,7 +42,10 @@ print(setB.issubset(setA))
 # FROZEN SET
 a = frozenset([1, 2, 3, 4])
 
-# a.remove(2) ---> not allowed, as set is frozen
+# a.remove(2) ---> not allowed, as set is
+myname = "Shashwat"
+for i in myname:
+    print(i)
 
 
 
